@@ -5,7 +5,7 @@ using namespace std;
 int main()
 {
     int random_number,guess,attempts=0;
-    srand((unsigned int) time(NULL));
+    srand((unsigned int) time(NULL));  //generates any random number with every new entry
     random_number = rand() % 100 + 1;
 
 //applying do-while loop to enter the number(guess) until the correct number has been guessed by the player
